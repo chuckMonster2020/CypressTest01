@@ -1,0 +1,11 @@
+{
+  "baseUrl": "https://auth.local-dev:9443/",
+  "defaultCommandTimeout": 10000,
+  "chromeWebSecurity": false,
+  "hosts": {
+    "auth.corp.com": "127.0.0.1"
+  },
+  "failOnStatusCode": false,
+  "waitForAnimations": false,
+  "animationDistanceThreshold": 50
+}
