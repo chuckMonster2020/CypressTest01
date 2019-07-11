@@ -18,5 +18,8 @@ describe ('My first test', function(){
         cy.get('.action-focus')
             .type('password',{delay:1000})
             .should('have.value', 'password')
+
+    //Adding some text to see if Git picks it up...
+
     })
 })
